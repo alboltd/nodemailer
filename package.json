@@ -176,6 +176,12 @@
         "node": ">=20.0.0"
     },
     "overrides": {
-        "minimatch": "11.0.1"
+        "minimatch": "11.0.1",
+        "mailauth": {
+            "joi": "18.3.1"
+        },
+        "test-exclude": {
+            "glob": "14.0.2"
+        }
     }
 }
